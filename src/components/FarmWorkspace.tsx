@@ -775,7 +775,7 @@ export default function FarmWorkspace({ initialTab = "dashboard" as FarmOsTab, a
         const res = await fetch("/api/farm-state");
         if (res.status === 401) {
           // Session expired: sign in again rather than silently stop syncing.
-          window.location.assign("/login");
+          window.location.assign(adminMode ? "/admin/login" : "/login");
           return;
         }
         if (res.ok) {
@@ -793,7 +793,7 @@ export default function FarmWorkspace({ initialTab = "dashboard" as FarmOsTab, a
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [adminMode]);
 
   // Save: always to local storage; debounce-sync to the database once hydrated.
   useEffect(() => {
@@ -807,14 +807,14 @@ export default function FarmWorkspace({ initialTab = "dashboard" as FarmOsTab, a
       })
         .then((res) => {
           // Session expired: local storage still holds the records; sign in again to resume syncing.
-          if (res.status === 401) window.location.assign("/login");
+          if (res.status === 401) window.location.assign(adminMode ? "/admin/login" : "/login");
         })
         .catch(() => {
           // Ignore: local storage already holds the records.
         });
     }, 800);
     return () => window.clearTimeout(timer);
-  }, [data, hydrated]);
+  }, [data, hydrated, adminMode]);
 
   const totals = useMemo(() => {
     const totalAcres = data.plots.reduce((sum, plot) => sum + Number(plot.equivalentAcres || 0), 0);

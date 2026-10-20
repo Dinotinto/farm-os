@@ -15,7 +15,8 @@ export async function setAdminSession() {
     httpOnly: true,
     sameSite: "lax",
     secure: process.env.NODE_ENV === "production",
-    path: "/admin",
+    // Site-wide so the admin workspace's API calls (/api/farm-state etc.) carry it too.
+    path: "/",
     maxAge: ADMIN_SESSION_MAX_AGE,
   });
 }

@@ -56,6 +56,20 @@ describe("farm data API requires a signed-in user", () => {
     expect(writeFarmState).toHaveBeenCalledOnce();
   });
 
+  it("lets the /admin workspace load and save farm data with an admin session", async () => {
+    const { setAdminSession } = await import("@/lib/admin-session");
+    await setAdminSession();
+    const { GET, PUT } = await import("@/app/api/farm-state/route");
+    expect((await GET()).status).toBe(200);
+    expect((await PUT(put({ plots: [] }))).status).toBe(200);
+  });
+
+  it("refuses the old fixed admin cookie value", async () => {
+    jar.set("farm_admin_session", "farm-admin-ok");
+    const { GET } = await import("@/app/api/farm-state/route");
+    expect((await GET()).status).toBe(401);
+  });
+
   it("drops the session when the user is removed from FARM_USERS", async () => {
     const { setSessionUser, getSessionUser } = await import("@/lib/user-session");
     await setSessionUser({ email: "worker@example.com", displayName: "Test Worker", role: "marketer" });
