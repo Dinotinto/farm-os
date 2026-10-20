@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+!.env.uat.example
+!.env.production.example
+node_modules
+.next
+dev.db
+*.db
+*.db-journal

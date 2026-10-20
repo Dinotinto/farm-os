@@ -1,0 +1,90 @@
+{
+  "farm": {
+    "name": "Dinotinto Farm",
+    "location": "Nigeria"
+  },
+  "plots": [
+    { "name": "Field 1", "sizeHectares": 0.45, "currentCrop": "Garden egg", "healthStatus": "Good" },
+    { "name": "Field 2", "sizeHectares": 0.35, "currentCrop": "Cucumber", "healthStatus": "Watch pests" },
+    { "name": "Perennial Block", "sizeHectares": 0.8, "currentCrop": "Plantain", "healthStatus": "Stable" }
+  ],
+  "inventory": [
+    { "item": "NPK 15-15-15", "category": "Fertilizer", "stock": 14, "unit": "bags", "reorderAt": 6, "value": 490000 },
+    { "item": "Tomato seed", "category": "Seed", "stock": 3, "unit": "packs", "reorderAt": 2, "value": 78000 },
+    { "item": "Organic manure", "category": "Soil input", "stock": 22, "unit": "bags", "reorderAt": 8, "value": 154000 },
+    { "item": "Harvest crates", "category": "Packaging", "stock": 64, "unit": "crates", "reorderAt": 20, "value": 256000 }
+  ],
+  "cropCycles": [
+    {
+      "crop": "Tomatoes",
+      "variety": "Roma VF",
+      "stage": "NURSERY",
+      "nurseryDate": "2026-06-02",
+      "transplantDate": "2026-07-02",
+      "plotName": "Field 1",
+      "plants": 1850,
+      "inputCost": 232000,
+      "projectedRevenue": 780000,
+      "notes": "Harden seedlings one week before transplanting."
+    },
+    {
+      "crop": "Pepper",
+      "variety": "Cayenne",
+      "stage": "NURSERY",
+      "nurseryDate": "2026-05-20",
+      "transplantDate": "2026-07-08",
+      "plotName": "Field 1",
+      "plants": 1200,
+      "inputCost": 176000,
+      "projectedRevenue": 620000,
+      "notes": "Prepare ridges and manure before field transfer."
+    },
+    {
+      "crop": "Cucumber",
+      "variety": "Marketmore",
+      "stage": "FLOWERING",
+      "nurseryDate": null,
+      "transplantDate": "2026-05-28",
+      "plotName": "Field 2",
+      "plants": 920,
+      "inputCost": 318000,
+      "projectedRevenue": 910000,
+      "notes": "Scout beetles twice weekly while flowering."
+    },
+    {
+      "crop": "Garden egg",
+      "variety": "Long purple",
+      "stage": "TRANSPLANTED",
+      "nurseryDate": "2026-04-28",
+      "transplantDate": "2026-06-11",
+      "plotName": "Field 1",
+      "plants": 760,
+      "inputCost": 151000,
+      "projectedRevenue": 470000,
+      "notes": "First top dressing due after establishment."
+    },
+    {
+      "crop": "Plantain",
+      "variety": "Agbagba",
+      "stage": "TRANSPLANTED",
+      "nurseryDate": null,
+      "transplantDate": "2026-04-15",
+      "plotName": "Perennial Block",
+      "plants": 310,
+      "inputCost": 540000,
+      "projectedRevenue": 1450000,
+      "notes": "Track profit over a longer cycle than vegetables."
+    }
+  ],
+  "tasks": [
+    { "title": "Harden tomato seedlings", "crop": "Tomatoes", "dueDate": "2026-06-24", "taskType": "Nursery", "status": "OPEN" },
+    { "title": "Inspect cucumber for beetles", "crop": "Cucumber", "dueDate": "2026-06-18", "taskType": "Pest scouting", "status": "OPEN" },
+    { "title": "Apply NPK to garden egg", "crop": "Garden egg", "dueDate": "2026-06-20", "taskType": "Fertilizer", "status": "OPEN" },
+    { "title": "Prepare pepper field ridges", "crop": "Pepper", "dueDate": "2026-06-29", "taskType": "Field prep", "status": "PLANNED" }
+  ],
+  "logs": [
+    { "activityDate": "2026-06-17", "activity": "Inspection", "subject": "Cucumber - Field 2", "amount": 0, "notes": "Flowering well. Watch pest pressure." },
+    { "activityDate": "2026-06-16", "activity": "Purchase", "subject": "NPK 15-15-15", "amount": 210000, "notes": "6 bags bought for vegetable blocks." },
+    { "activityDate": "2026-06-14", "activity": "Labor", "subject": "Garden egg - Field 1", "amount": 45000, "notes": "Weeding and gap filling." }
+  ]
+}

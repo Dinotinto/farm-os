@@ -1,0 +1,22 @@
+{
+  "packageId": "com.dtinto.farmos",
+  "host": "farm.dtinto.com",
+  "name": "Dinotinto Farm OS",
+  "launcherName": "Farm OS",
+  "display": "standalone",
+  "orientation": "portrait",
+  "themeColor": "#193b28",
+  "themeColorDark": "#193b28",
+  "navigationColor": "#193b28",
+  "navigationColorDark": "#193b28",
+  "backgroundColor": "#193b28",
+  "startUrl": "/",
+  "iconUrl": "https://farm.dtinto.com/icons/icon-512.png",
+  "maskableIconUrl": "https://farm.dtinto.com/icons/icon-maskable-512.png",
+  "webManifestUrl": "https://farm.dtinto.com/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "enableNotifications": true,
+  "shortcuts": [],
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.dtinto.farmos",
+      "sha256_cert_fingerprints": [
+        "6F:63:84:0A:60:09:49:D4:B4:1A:62:AE:AB:25:33:E2:B8:E2:CF:AD:B3:79:78:0A:3C:2A:42:05:8B:46:86:F7"
+      ]
+    }
+  }
+]

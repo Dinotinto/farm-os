@@ -1,0 +1,190 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum CropStage {
+  PLANNING
+  NURSERY
+  TRANSPLANTED
+  FLOWERING
+  HARVESTING
+  COMPLETED
+  FAILED
+}
+
+enum FarmTaskStatus {
+  OPEN
+  PLANNED
+  DONE
+}
+
+model FarmOsState {
+  id        String   @id
+  blob      String
+  updatedAt DateTime @updatedAt
+}
+
+// Direct messages between farm users (team chat).
+model Message {
+  id        String    @id @default(cuid())
+  fromEmail String
+  toEmail   String
+  body      String
+  createdAt DateTime  @default(now())
+  readAt    DateTime?
+
+  @@index([toEmail])
+  @@index([fromEmail])
+  @@index([createdAt])
+}
+
+model Farm {
+  id        String   @id @default(cuid())
+  name      String
+  location  String?
+  plots     Plot[]
+  cycles    CropCycle[]
+  items     InventoryItem[]
+  tasks     FarmTask[]
+  logs      FarmLog[]
+  harvests  Harvest[]
+  sales     Sale[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Plot {
+  id           String      @id @default(cuid())
+  farmId       String
+  farm         Farm        @relation(fields: [farmId], references: [id], onDelete: Cascade)
+  name         String
+  sizeHectares Decimal?
+  soilNotes    String?
+  currentCrop  String?
+  healthStatus String?
+  cycles       CropCycle[]
+  createdAt    DateTime    @default(now())
+  updatedAt    DateTime    @updatedAt
+
+  @@index([farmId])
+}
+
+model CropCycle {
+  id                   String     @id @default(cuid())
+  farmId               String
+  farm                 Farm       @relation(fields: [farmId], references: [id], onDelete: Cascade)
+  plotId               String?
+  plot                 Plot?      @relation(fields: [plotId], references: [id], onDelete: SetNull)
+  crop                 String
+  variety              String?
+  stage                CropStage  @default(PLANNING)
+  nurseryDate          DateTime?
+  transplantDate       DateTime?
+  expectedHarvestStart DateTime?
+  expectedHarvestEnd   DateTime?
+  plants               Int        @default(0)
+  inputCost            Decimal    @default(0)
+  projectedRevenue     Decimal    @default(0)
+  notes                String?
+  tasks                FarmTask[]
+  logs                 FarmLog[]
+  harvests             Harvest[]
+  sales                Sale[]
+  createdAt            DateTime   @default(now())
+  updatedAt            DateTime   @updatedAt
+
+  @@index([farmId])
+  @@index([plotId])
+}
+
+model InventoryItem {
+  id        String   @id @default(cuid())
+  farmId    String
+  farm      Farm     @relation(fields: [farmId], references: [id], onDelete: Cascade)
+  item      String
+  category  String
+  stock     Decimal  @default(0)
+  unit      String
+  reorderAt Decimal  @default(0)
+  value     Decimal  @default(0)
+  supplier  String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([farmId])
+}
+
+model FarmTask {
+  id          String         @id @default(cuid())
+  farmId      String
+  farm        Farm           @relation(fields: [farmId], references: [id], onDelete: Cascade)
+  cropCycleId String?
+  cropCycle   CropCycle?     @relation(fields: [cropCycleId], references: [id], onDelete: SetNull)
+  title       String
+  taskType    String
+  dueDate     DateTime
+  status      FarmTaskStatus @default(OPEN)
+  assignedTo  String?
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+
+  @@index([farmId])
+  @@index([dueDate])
+}
+
+model FarmLog {
+  id           String     @id @default(cuid())
+  farmId       String
+  farm         Farm       @relation(fields: [farmId], references: [id], onDelete: Cascade)
+  cropCycleId  String?
+  cropCycle    CropCycle? @relation(fields: [cropCycleId], references: [id], onDelete: SetNull)
+  activityDate DateTime   @default(now())
+  activity     String
+  subject      String
+  amount       Decimal    @default(0)
+  notes        String?
+  createdAt    DateTime   @default(now())
+
+  @@index([farmId])
+  @@index([activityDate])
+}
+
+model Harvest {
+  id              String    @id @default(cuid())
+  farmId          String
+  farm            Farm      @relation(fields: [farmId], references: [id], onDelete: Cascade)
+  cropCycleId     String
+  cropCycle       CropCycle @relation(fields: [cropCycleId], references: [id], onDelete: Cascade)
+  harvestDate     DateTime
+  quantity        Decimal
+  unit            String
+  damagedQuantity Decimal   @default(0)
+  notes           String?
+  createdAt       DateTime  @default(now())
+
+  @@index([farmId])
+  @@index([cropCycleId])
+}
+
+model Sale {
+  id            String     @id @default(cuid())
+  farmId        String
+  farm          Farm       @relation(fields: [farmId], references: [id], onDelete: Cascade)
+  cropCycleId   String?
+  cropCycle     CropCycle? @relation(fields: [cropCycleId], references: [id], onDelete: SetNull)
+  saleDate      DateTime
+  buyer         String?
+  quantity      Decimal
+  unit          String
+  unitPrice     Decimal
+  paymentStatus String     @default("UNPAID")
+  createdAt     DateTime   @default(now())
+
+  @@index([farmId])
+  @@index([cropCycleId])
+}

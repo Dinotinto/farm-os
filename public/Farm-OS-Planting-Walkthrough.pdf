@@ -1,0 +1,172 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Length 5524 >>
+stream
+q 0.06 0.55 0.44 rg BT /F2 22 Tf 1 0 0 1 56.00 785.89 Tm (Dinotinto Farm OS) Tj ET Q
+q 0.08 0.13 0.24 rg BT /F2 14 Tf 1 0 0 1 56.00 753.89 Tm (How to plan a planting from scratch - a walkthrough) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 731.89 Tm (This guide walks you through one full crop cycle in the app: from an empty plot to a recorded) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 716.89 Tm (sale. Follow it in order the first time, then use it as a checklist. Everything you enter) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 701.89 Tm (flows into one shared record, so the Dashboard and Advisor always reflect what you actually) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 686.89 Tm (did.) Tj ET Q
+q 0.85 0.88 0.81 RG 0.8 w 56 653.89 m 539.28 653.89 l S Q
+q 0.08 0.13 0.24 rg BT /F2 14 Tf 1 0 0 1 56.00 641.89 Tm (Before you start: how the pieces connect) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 619.89 Tm (The app has one source of truth and everything links back to it:) Tj ET Q
+q 0.06 0.55 0.44 rg BT /F2 10.5 Tf 1 0 0 1 56.00 600.89 Tm (-) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 72.00 600.89 Tm (Plots are your land. Each plot has a status \(ready, planted, fallow, needs clearing...\).) Tj ET Q
+q 0.06 0.55 0.44 rg BT /F2 10.5 Tf 1 0 0 1 56.00 583.89 Tm (-) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 72.00 583.89 Tm (Inventory is everything you own - seeds, fertilizer, crop protection. Its quantity is the) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 72.00 568.89 Tm (stock you add minus the stock you use. Items never disappear; a used-up item simply shows 0) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 72.00 553.89 Tm (and an 'out of stock' tag so you can restock the same item and keep its cost and history.) Tj ET Q
+q 0.06 0.55 0.44 rg BT /F2 10.5 Tf 1 0 0 1 56.00 536.89 Tm (-) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 72.00 536.89 Tm (A Planting Plan ties a crop to a plot, reserves the inputs it will draw from inventory,) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 72.00 521.89 Tm (and projects cost, yield and profit.) Tj ET Q
+q 0.06 0.55 0.44 rg BT /F2 10.5 Tf 1 0 0 1 56.00 504.89 Tm (-) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 72.00 504.89 Tm (Tasks are dated jobs \(nursery, planting, spraying, harvest\). They can be assigned to) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 72.00 489.89 Tm (Workers.) Tj ET Q
+q 0.06 0.55 0.44 rg BT /F2 10.5 Tf 1 0 0 1 56.00 472.89 Tm (-) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 72.00 472.89 Tm (Workers do tasks and are paid through Salary / labour. The Advisor flags unpaid balances) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 72.00 457.89 Tm (and open tasks.) Tj ET Q
+q 0.06 0.55 0.44 rg BT /F2 10.5 Tf 1 0 0 1 56.00 440.89 Tm (-) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 72.00 440.89 Tm (The Dashboard and Advisor read all of the above. Plan a crop and the plot turns 'planted';) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 72.00 425.89 Tm (record a sale and the cash position updates.) Tj ET Q
+q 0.85 0.88 0.81 RG 0.8 w 56 394.89 m 539.28 394.89 l S Q
+q 0.08 0.13 0.24 rg BT /F2 14 Tf 1 0 0 1 56.00 382.89 Tm (Reserved vs used: the one thing to understand about stock) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 360.89 Tm (When you create a plan and pick the seeds/fertilizer it will use, the app RESERVES that) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 345.89 Tm (quantity - it earmarks it but does not remove it yet. Stock is only DEDUCTED when you record) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 330.89 Tm (actual usage \(Inventory > Use stock, tied to the plan\). This is deliberate: a plan is intent;) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 315.89 Tm (the deduction is what really happened. If plans reserve more than you hold, the Advisor tells) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 300.89 Tm (you exactly what to buy.) Tj ET Q
+q 0.85 0.88 0.81 RG 0.8 w 56 267.89 m 539.28 267.89 l S Q
+q 0.06 0.55 0.44 rg BT /F2 22 Tf 1 0 0 1 56.00 255.89 Tm (The walkthrough) Tj ET Q
+q 0.06 0.55 0.44 rg BT /F2 13 Tf 1 0 0 1 56.00 223.89 Tm (1.) Tj ET Q
+q 0.08 0.13 0.24 rg BT /F2 13 Tf 1 0 0 1 78.00 223.89 Tm (Set up the plot) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 203.89 Tm (Go to Plots > Add plot. Enter a real size such as 300 x 100 ft. Set whether it is irrigated) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 188.89 Tm (and its current land status. If it is bushy or needs clearing, the Advisor will flag it) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 173.89 Tm (before you can plant.) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 154.89 Tm (Expect to see: the new plot listed with its acreage and a status tag.) Tj ET Q
+q 0.06 0.55 0.44 rg BT /F2 13 Tf 1 0 0 1 56.00 135.89 Tm (2.) Tj ET Q
+q 0.08 0.13 0.24 rg BT /F2 13 Tf 1 0 0 1 78.00 135.89 Tm (Stock your inventory) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 115.89 Tm (Go to Inventory > Add new item. Add the seed for your crop \(set seeds-per-unit, or enter grams) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 100.89 Tm (and let AI estimate the seed count\), plus the fertilizers and crop-protection products you) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 85.89 Tm (expect to use. Enter opening quantities for what you already have.) Tj ET Q
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 9 0 R /F2 10 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 6081 >>
+stream
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 785.89 Tm (Expect to see: each item with its quantity on hand and unit cost; stock value totalled at the) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 770.89 Tm (top.) Tj ET Q
+q 0.06 0.55 0.44 rg BT /F2 13 Tf 1 0 0 1 56.00 751.89 Tm (3.) Tj ET Q
+q 0.08 0.13 0.24 rg BT /F2 13 Tf 1 0 0 1 78.00 751.89 Tm (Create the crop profile) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 731.89 Tm (Go to Crop catalog > and pick or create your crop \(e.g. tomato, cucumber, pepper, plantain\).) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 716.89 Tm (The profile holds whether it needs a nursery, days to harvest, water need, common pests and) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 701.89 Tm (fertilizer stages. The planner and the crop-stage guidance both use this.) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 682.89 Tm (Expect to see: your crop available to select in the planner.) Tj ET Q
+q 0.06 0.55 0.44 rg BT /F2 13 Tf 1 0 0 1 56.00 663.89 Tm (4.) Tj ET Q
+q 0.08 0.13 0.24 rg BT /F2 13 Tf 1 0 0 1 78.00 663.89 Tm (Plan the planting) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 643.89 Tm (Go to Planting planner > Create crop plan. Select the crop, then the plot. Enter your nursery) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 628.89 Tm (or planting date and the seed count. Pick the seeds, fertilizer and crop protection this plan) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 613.89 Tm (will draw from inventory, with quantities. Set the expected market price.) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 594.89 Tm (The app auto-fills transplant and harvest dates from the crop profile, computes expected) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 579.89 Tm (cost, yield and profit, and shows warnings \(e.g. thirsty crop on a non-irrigated plot, or not) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 564.89 Tm (enough stock\).) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 545.89 Tm (Expect to see: a new plan card; the PLOT is now marked 'planted' with the crop on it; the) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 530.89 Tm (Dashboard 'planted' count and profit forecast update.) Tj ET Q
+q 0.06 0.55 0.44 rg BT /F2 13 Tf 1 0 0 1 56.00 511.89 Tm (5.) Tj ET Q
+q 0.08 0.13 0.24 rg BT /F2 13 Tf 1 0 0 1 78.00 511.89 Tm (Buy anything short) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 491.89 Tm (If your plans reserve more than you hold, open the Advisor or the top of the Inventory page.) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 476.89 Tm (It lists exactly what to buy and an estimated cost. Add that stock \(Inventory > Add\) and the) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 461.89 Tm (shortfall clears.) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 442.89 Tm (Expect to see: shortfall warnings disappear once stock covers the plan.) Tj ET Q
+q 0.06 0.55 0.44 rg BT /F2 13 Tf 1 0 0 1 56.00 423.89 Tm (6.) Tj ET Q
+q 0.08 0.13 0.24 rg BT /F2 13 Tf 1 0 0 1 78.00 423.89 Tm (Turn the plan into dated tasks and assign workers) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 403.89 Tm (From the plan \(or Tasks\), create the jobs: nursery work, land prep, planting/transplanting,) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 388.89 Tm (weeding, fertilizer, spraying, harvest. Give each a due date and assign a worker. The AI crop) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 373.89 Tm (plan can generate a whole dated schedule at once.) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 354.89 Tm (Expect to see: tasks appear in Upcoming tasks on the Dashboard with due dates; each assigned) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 339.89 Tm (worker's load shows in the Advisor.) Tj ET Q
+q 0.06 0.55 0.44 rg BT /F2 13 Tf 1 0 0 1 56.00 320.89 Tm (7.) Tj ET Q
+q 0.08 0.13 0.24 rg BT /F2 13 Tf 1 0 0 1 78.00 320.89 Tm (Mark the plan active when it goes in the ground) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 300.89 Tm (On the plan card press 'Mark Active' when you actually plant. This keeps the plot status) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 285.89 Tm (accurate. \(Creating the plan already marks the plot planted; Mark Active confirms it is) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 270.89 Tm (really growing.\)) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 251.89 Tm (Expect to see: the plan tagged Active; the plot detail shows a 'Currently growing' banner with) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 236.89 Tm (the harvest window.) Tj ET Q
+q 0.06 0.55 0.44 rg BT /F2 13 Tf 1 0 0 1 56.00 217.89 Tm (8.) Tj ET Q
+q 0.08 0.13 0.24 rg BT /F2 13 Tf 1 0 0 1 78.00 217.89 Tm (Work the cycle - watch the Crop watch panel) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 197.89 Tm (The Dashboard 'Crop watch' panel tells you, for each crop in the ground, its growth stage, what) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 182.89 Tm (you should be seeing now, and the next action - based on the crop type and today's date. For) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 167.89 Tm (example, two weeks into a tomato nursery it will say seedlings should be showing true leaves) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 152.89 Tm (and to watch for damping-off; later it will prompt top-dressing, then pest scouting at) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 137.89 Tm (flowering, then harvest.) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 118.89 Tm (As things happen, record stock usage \(Inventory > Use stock\), log observations \(pests,) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 103.89 Tm (weather, poor germination\) and complete tasks. Each of these feeds the Advisor and your real) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 88.89 Tm (cost/profit.) Tj ET Q
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 9 0 R /F2 10 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 2651 >>
+stream
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 785.89 Tm (Expect to see: stage guidance advance over time; observations adjust the plan's expected) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 770.89 Tm (profit; completed tasks drop off the upcoming list.) Tj ET Q
+q 0.06 0.55 0.44 rg BT /F2 13 Tf 1 0 0 1 56.00 751.89 Tm (9.) Tj ET Q
+q 0.08 0.13 0.24 rg BT /F2 13 Tf 1 0 0 1 78.00 751.89 Tm (Harvest and sell) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 731.89 Tm (When the Crop watch panel says the harvest window is open, harvest in batches. Check Market) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 716.89 Tm (prices, then record each sale under Accounts \(buyer, quantity, price, amount received\).) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 701.89 Tm (Unpaid balances show as money owed to you.) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 682.89 Tm (Expect to see: 'Money in' and 'Net so far' update on the Dashboard; receivables flagged until) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 667.89 Tm (buyers pay.) Tj ET Q
+q 0.06 0.55 0.44 rg BT /F2 13 Tf 1 0 0 1 56.00 648.89 Tm (10.) Tj ET Q
+q 0.08 0.13 0.24 rg BT /F2 13 Tf 1 0 0 1 78.00 648.89 Tm (Close the plan) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 628.89 Tm (Press 'Harvest Done' on the plan. The plot rotates to fallow, the crop moves to 'previous crop',) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 613.89 Tm (and the plot is free for the next cycle. Completed plans stop reserving stock and drop out of) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 598.89 Tm (the active forecasts.) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 579.89 Tm (Expect to see: the plot back to fallow/ready; the cycle's real cost vs revenue preserved in) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 564.89 Tm (Accounts.) Tj ET Q
+q 0.85 0.88 0.81 RG 0.8 w 56 531.89 m 539.28 531.89 l S Q
+q 0.08 0.13 0.24 rg BT /F2 14 Tf 1 0 0 1 56.00 519.89 Tm (Quick mental model) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 497.89 Tm (Plot + Inventory -> Plan \(reserves stock\) -> Tasks \(assigned to workers\) -> Active \(plot) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 482.89 Tm (planted\) -> Crop watch guides you stage by stage -> Use stock + log observations as you go ->) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 467.89 Tm (Harvest -> Sale \(cash in\) -> Harvest Done \(plot freed\). The Dashboard and Advisor summarise) Tj ET Q
+q 0.29 0.35 0.46 rg BT /F1 10.5 Tf 1 0 0 1 56.00 452.89 Tm (all of it at every step.) Tj ET Q
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 9 0 R /F2 10 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+10 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000127 00000 n 
+0000005703 00000 n 
+0000005846 00000 n 
+0000011979 00000 n 
+0000012122 00000 n 
+0000014825 00000 n 
+0000014968 00000 n 
+0000015065 00000 n 
+trailer
+<< /Size 11 /Root 1 0 R >>
+startxref
+15168
+%%EOF
